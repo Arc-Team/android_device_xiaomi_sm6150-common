@@ -313,3 +313,6 @@ esac
 setprop vendor.powerhal.init 1
 
 setprop vendor.post_boot.parsed 1
+
+# Disable Gms Intent Operation Service
+pm disable com.google.android.gms/.chimera.GmsIntentOperationService
